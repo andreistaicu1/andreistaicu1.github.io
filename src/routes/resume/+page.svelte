@@ -101,6 +101,8 @@
     <span class="whitespace-nowrap"><a class="link" href="https://github.com/andreistaicu1/FieldLinAlg.git">src</a></span>
     <span class="px-0.5 text-neutral-500">•</span>
     <span class="whitespace-nowrap">C++</span>
+    <span class="px-0.5 text-neutral-500">•</span>
+    <span class="whitespace-nowrap">with <a class="link" href="https://github.com/ericluap">@ericluap</a></span>
   </p>
     <ul>
       <li>
