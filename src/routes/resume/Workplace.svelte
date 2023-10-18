@@ -3,7 +3,6 @@
 
   export let title: string;
   export let company: string;
-  export let url: string;
   export let dates: string;
   export let location: string;
   export let defaultHidden = false;
@@ -18,7 +17,7 @@
   on:keypress={() => {}}
 >
   <h3 class="text-black text-lg leading-tight mb-1">
-    {title} at <a class="link" href={url}>{company}</a>
+    {title} at {company}
   </h3>
   <p class="font-light mb-2">
     <span class="whitespace-nowrap">{dates}</span>
