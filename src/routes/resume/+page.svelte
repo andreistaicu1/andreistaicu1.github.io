@@ -22,9 +22,7 @@
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>
     <li>
-      TA for Ma 5b (Rings, Modules, and Linear Algebra), Winter 2023 —
-      <em><a class="link" href="https://pma.caltech.edu/research-and-academics/mathematics/prizes-and-awards-in-mathematics/apostol-award-for-excellence-in-teaching-in-mathematics-winners"
-        >Apostol Award for Excellence in Teaching in Mathematics</a></em>
+      TA for Introduction to Abstract Algebra (Ma 5b), Winter 2023
     </li>
   </ul>
 
@@ -58,13 +56,10 @@
     company="Caltech"
     dates="January 2023 – Current"
     location="Pasadena, CA"
+    prof="Leonard Schulman"
   >
     <li>
-      Worked with Dr. Schulman on proving the identifiability of product of statistical models
-      with latent symmetry.
-    </li>
-    <li>
-      Results posted on <a class="link" href="https://arxiv.org/abs/2310.09397?context=math.AG">arXiv</a>
+      Worked on proving the identifiability of product of statistical models with latent symmetry.
     </li>
   </Workplace>
 
@@ -73,10 +68,11 @@
     company="Caltech"
     dates="September 2022 - Current"
     location="Pasadena, CA"
+    prof="Chris Umans"
   >
     <li>
-      Worked with Dr. Umans on applying group theoretic methods to achieve better bounds on sizes of
-      subsets that satisfy the triple product property.
+      Applied group theoretic methods to achieve better bounds on sizes of subsets that satisfy the 
+      triple product property.
     </li>
   </Workplace>
 
@@ -85,6 +81,7 @@
     company="the University of Copenhagen"
     dates="June 2021 – October 2021"
     location="San Francisco, CA"
+    prof="Ronno Das"
   >
     <li>
       Obtained new counts for 7-arcs and 8-arcs in projective planes over finite fields by
@@ -94,7 +91,21 @@
   </Workplace>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-4">
+  <h2 class="heading2">Publications</h2>
+    <h4 class="font-light mt-4 mb-1">Gordon, S., Kant, M., Ma, E., Schulman, L.J., and <b>Staicu, A.</b> (2023). 
+      “Identifiability of Product of Experts Models” arXiv preprint <a class="link" 
+      href="https://arxiv.org/abs/2310.09397?context=math.AG">arXiv:2310.09397</a>.</h4>
+</section>
+
+<section class="layout-md py-4">
+  <h2 class="heading2">Awards</h2>
+    <h4 class="font-light mt-4 mb-1"><em><a class="link" href="https://pma.caltech.edu/research-and-academics/mathematics/prizes-and-awards-in-mathematics/apostol-award-for-excellence-in-teaching-in-mathematics-winners"
+      >Apostol Award for Excellence in Teaching in Mathematics</a></em> - Introduction to Abstract Algebra (Ma 5b), 
+      Winter 2023</h4>
+</section>
+
+<section class="layout-md py-4">
   <h2 class="heading2">Projects</h2>
     <h3 class="text-black text-lg leading-tight mb-1">Finite Field Linear Algebra Library</h3>
     <p class="font-light mb-2">

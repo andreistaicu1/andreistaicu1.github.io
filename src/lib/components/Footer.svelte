@@ -10,6 +10,11 @@
     <a class="link" href="mailto:andreistaicu01@gmail.com">andreistaicu01@gmail.com</a>
   </div>
   <div class="row">
+    <span>Linkedin</span>
+    <hr />
+    <a class="link" href="https://www.linkedin.com/in/andrei-staicu-4ba3b9202/">Andrei Staicu</a>
+  </div>
+  <div class="row">
     <span>Website Credits</span>
     <hr />
     <a class="link" href="https://www.ekzhang.com/">Eric Zhang</a>
