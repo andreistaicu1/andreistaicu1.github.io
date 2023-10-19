@@ -1,0 +1,5 @@
+.project-pair.svelte-1cjhn1v{margin-left:-0.75rem;margin-right:-0.75rem;display:grid;row-gap:0.25rem;padding-left:0.75rem;padding-right:0.75rem;padding-top:0.5rem;padding-bottom:0.5rem;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms
+}.project-pair.svelte-1cjhn1v:hover{--tw-bg-opacity:1;background-color:rgb(245 245 245 / var(--tw-bg-opacity))
+}@media(min-width: 640px){.project-pair.svelte-1cjhn1v{grid-template-columns:3fr 2fr
+    }}@media(max-width: 420px){#andrei-is.svelte-1cjhn1v{margin-top:-2.5rem
+    }}
