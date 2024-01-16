@@ -9,6 +9,11 @@
       href: "https://arxiv.org/abs/2310.09397?context=math.AG",
       desc: "w/ Spencer Gordon, Manav Kant, Eric Ma, and Leonard Schulman",
     },
+    {
+      name: "Counting 7-Arcs in Projective Planes over Finite Fields",
+      href: "https://arxiv.org/abs/2311.16578",
+      desc: "",
+    },
   ];
 </script>
 
@@ -29,16 +34,14 @@
     </p>
 
     <p>
-      My research interests are in theoretical computer science, specifically using techniques from
-      algebra to design fast algorithms. I'm interested in learning more about algebraic complexity theory 
-      and algebraic geometry.
+      My research interests are in theoretical computer science and algebraic geometry. I am interested in using
+      techniques from algebra and algebraic geometry for problems in computer science. My previous research projects
+      were in matrix multipilication and counting arcs in projective planes.
     </p>
 
     <p>
-      I have worked with <a class="link" href="http://users.cms.caltech.edu/~schulman/">Dr. Schulman</a> on identifying
-      causal models, with <a class="link" href="http://users.cms.caltech.edu/~umans/">Dr. Umans</a> on improving the
-      bound on matrix multiplication, and with <a class="link" href="https://ronnod.as/">Dr. Das</a> on
-      counting arcs in projective planes.
+      I am currently working on a project in theoretical computer science on identifying causal models. I am also
+      exploring research in algebraic geometry on toric varieties.
     </p>
   </div>
 

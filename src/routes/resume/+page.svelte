@@ -28,8 +28,8 @@
 
   <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
   <ul>
-    <li>Algebraic Geometry (Ma 130a)</li>
-    <li>Abstract Algebra (Ma 120a)</li>
+    <li>Algebraic Geometry (Ma 130ab)</li>
+    <li>Commutative Algebra (Ma 120a)</li>
     <li>Complexity Theory (CS 151)</li>
     <li>Computability Theory (Ma/CS 117ab)</li>
     <li>Discrete Differential Geometry: Theory and Applications (CS/ACM 177a)</li>
@@ -52,41 +52,50 @@
   <h2 class="heading2">Research</h2>
 
   <Workplace
-    title="SURF"
+    title="Theoretical Computer Science Researcher"
     company="Caltech"
     dates="January 2023 – Current"
     location="Pasadena, CA"
-    prof="Leonard Schulman"
+    prof="mentored by Prof. Leonard Schulman"
   >
     <li>
-      Worked on proving the identifiability of product of statistical models with latent symmetry.
+      Established foundation in computational algebraic geometry, representation theory, and invariant theory
+    </li>
+    <li>
+      Led weekly research group meetings and wrote code in Mathematica and SageMath to make informed conjectures
+    </li>
+    <li>
+      Co-authored paper: proved the main identifiability result and wrote up my contribution, Theorem 17
     </li>
   </Workplace>
 
   <Workplace
-    title="Undergraduate Researcher"
+    title="Theoretical Computer Science Researcher"
     company="Caltech"
     dates="September 2022 - Current"
     location="Pasadena, CA"
-    prof="Chris Umans"
+    prof="mentored by Prof. Chris Umans"
   >
     <li>
-      Applied group theoretic methods to achieve better bounds on sizes of subsets that satisfy the 
-      triple product property.
+      Read and presented recent advancements in bounds for group theoretic matrix multiplication algorithms
+    </li>
+    <li>
+      Held weekly meeetings and wrote code in SageMath that tested the standard constructions to make conjectures
     </li>
   </Workplace>
 
   <Workplace
-    title="SURF"
+    title="Mathematics Researcher"
     company="the University of Copenhagen"
     dates="June 2021 – October 2021"
-    location="San Francisco, CA"
-    prof="Ronno Das"
+    location="Copenhagen, Denmark"
+    prof="mentored by Dr. Ronno Das"
   >
     <li>
-      Obtained new counts for 7-arcs and 8-arcs in projective planes over finite fields by
-      classifying the existence of Fano planes and Mobius-Kantor configurations, paper in
-      preparation.
+      Computed all the counts for 7-arcs in char 2 and a majority of twisted 8-arcs in odd char, all are novel results
+    </li>
+    <li>
+      Presented results to the Dept Math, U Copenhagen and the Caltech SURF Seminar Day 2022
     </li>
   </Workplace>
 </section>
@@ -96,10 +105,13 @@
     <h4 class="font-light mt-4 mb-1">Gordon, S., Kant, M., Ma, E., Schulman, L.J., and <b>Staicu, A.</b> (2023). 
       “Identifiability of Product of Experts Models” arXiv preprint <a class="link" 
       href="https://arxiv.org/abs/2310.09397?context=math.AG">arXiv:2310.09397</a>.</h4>
+    <h4 class="font-light mt-4 mb-1"><b>Staicu, A.</b> (2023). 
+      “Counting 7-Arcs in Projective Planes over Finite Fields” arXiv preprint <a class="link" 
+      href="https://arxiv.org/abs/2311.16578">arXiv:2311.16578</a>.</h4>
 </section>
 
 <section class="layout-md py-4">
-  <h2 class="heading2">Awards</h2>
+  <h2 class="heading2">Honors and Awards</h2>
     <h4 class="font-light mt-4 mb-1"><em><a class="link" href="https://pma.caltech.edu/research-and-academics/mathematics/prizes-and-awards-in-mathematics/apostol-award-for-excellence-in-teaching-in-mathematics-winners"
       >Apostol Award for Excellence in Teaching in Mathematics</a></em> - Introduction to Abstract Algebra (Ma 5b), 
       Winter 2023</h4>

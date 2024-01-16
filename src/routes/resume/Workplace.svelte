@@ -25,7 +25,7 @@
     <span class="px-0.5 text-neutral-500">•</span>
     <span class="whitespace-nowrap">{location}</span>
     <span class="px-0.5 text-neutral-500">•</span>
-    <span class="whitespace-nowrap">Prof. {prof}</span>
+    <span class="whitespace-nowrap">{prof}</span>
   </p>
   {#if !hidden}
     <ul class="list-disc pl-7 marker:text-neutral-400" in:fade|local>

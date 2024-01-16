@@ -4,6 +4,7 @@
   const links = [
     /*{ name: "projects", href: "/projects" }, maybe add a writing section at some point*/
     /*{ name: "research", href: "/research" }, uncomment this when research section is done*/
+    /*{ name: "notes", href: "/notes"},*/
     { name: "resume", href: "/resume" },
   ];
 
