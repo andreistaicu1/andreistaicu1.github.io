@@ -36,7 +36,7 @@
     <p>
       My research interests are in theoretical computer science and algebraic geometry. I am interested in using
       techniques from algebra and algebraic geometry for problems in computer science. My previous research projects
-      were in matrix multipilication and counting arcs in projective planes.
+      were in matrix multiplication and counting arcs in projective planes.
     </p>
 
     <p>
