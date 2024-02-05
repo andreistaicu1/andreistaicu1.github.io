@@ -72,7 +72,7 @@
   <Workplace
     title="Theoretical Computer Science Researcher"
     company="Caltech"
-    dates="September 2022 - Current"
+    dates="September 2022 - September 2023"
     location="Pasadena, CA"
     prof="mentored by Prof. Chris Umans"
   >
@@ -87,7 +87,7 @@
   <Workplace
     title="Mathematics Researcher"
     company="the University of Copenhagen"
-    dates="June 2021 – October 2021"
+    dates="June 2022 – October 2022"
     location="Copenhagen, Denmark"
     prof="mentored by Dr. Ronno Das"
   >
