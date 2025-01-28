@@ -16,7 +16,7 @@
   }
 
   .layout-md {
-    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+    @apply max-w-screen-lg mx-auto px-8 sm:px-12;
   }
 
   .heading2 {
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
+  @apply /* antialiased */ py-4 sm:py-8 md:py-16 text-neutral-700;
 }
 
 ::selection {

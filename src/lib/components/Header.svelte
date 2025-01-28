@@ -3,9 +3,10 @@
 
   const links = [
     /*{ name: "projects", href: "/projects" }, maybe add a writing section at some point*/
-    /*{ name: "research", href: "/research" }, uncomment this when research section is done*/
+    { name: "about", href: "/"},
+    { name: "research", href: "/research" }, /*uncomment this when research section is done*/
     /*{ name: "notes", href: "/notes"},*/
-    { name: "resume", href: "/resume" },
+    { name: "extras", href: "/extras" }
   ];
 
   let pageTitle: string | null = null;
@@ -24,7 +25,7 @@
   data-sveltekit-noscroll
   data-sveltekit-preload-code="eager"
 >
-  <h1 class="font-bold text-black text-2xl mb-6">
+  <h1 class="font-bold text-black text-2xl">
     <a href="/">Andrei Staicu</a>
     {#if pageTitle}
       <span class="page-title">
@@ -47,6 +48,11 @@
 </header>
 
 <style lang="postcss">
+
+  header {
+    @apply bg-orange-100 py-4; /* Light gray background */
+  }
+  
   nav {
     @apply flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5;
   }

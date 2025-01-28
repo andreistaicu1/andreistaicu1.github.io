@@ -1,6 +1,7 @@
 # andreistaicu1.github.io
 
-README from Eric Zhang:
+I used Eric Zhang's template for his website that he has generously made public.
+As such, I have copied his README:
 
 Source code for my [personal website](https://www.ekzhang.com/), hosted on
 GitHub Pages.
