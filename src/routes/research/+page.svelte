@@ -28,7 +28,7 @@ description="Publications."
 <section class="layout-md py-8">
     <h2 class="heading2">Recent Publications</h2>
 {#each papersByDate as id (id)}
-    <div class="mx-auto max-w-[1152px] px-4 sm:px-6 py-4">
+    <div class="mx-auto max-w-[1152px] px-4 sm:px-6 py-2">
       <Paper data={papers[id]} />
     </div>
 {/each}
