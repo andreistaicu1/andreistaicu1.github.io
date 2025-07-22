@@ -34,7 +34,7 @@
   <h2 class="heading2">Contact</h2>
     <h4 class="font-light mt-1 mb-1">LinkedIn: <a class="link" href="https://www.linkedin.com/in/andrei-staicu-4ba3b9202/">Andrei Staicu</a></h4>
     <h4 class="font-light mt-1 mb-1">GitHub: <a class="link" href="https://github.com/andreistaicu1">@andreistaicu1</a></h4>
-    <h4 class="font-light mt-1 mb-1">Email: <span class="font-mono bg-gray-200 px-1 py-0.5 rounded">[first-initial][last]2[at]illinois.edu/span></h4>
+    <h4 class="font-light mt-1 mb-1">Email: <span class="font-mono bg-gray-200 px-1 py-0.5 rounded">[first-initial][last]2[at]illinois.edu</span></h4>
 </section>
 
 
