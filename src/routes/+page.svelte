@@ -17,7 +17,7 @@
 <div class="layout-md text-lg space-y-8">
   <div class="space-y-5">
     <p>
-      I am a computer science PhD student at the <a class="link" href="https://siebelschool.illinois.edu/research/areas/theory-and-algorithms">University of Illinois</a>, where I am advised by <a class="link" href="https://miforbes.cs.illinois.edu/">Prof. Michael Forbes</a>.
+      I am an incoming Computer Science PhD student at the <a class="link" href="https://siebelschool.illinois.edu/research/areas/theory-and-algorithms">University of Illinois</a>, where I will be advised by <a class="link" href="https://miforbes.cs.illinois.edu/">Prof. Michael Forbes</a>.
     </p>
 
     <p>
