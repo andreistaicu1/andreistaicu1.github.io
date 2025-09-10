@@ -7,7 +7,7 @@
   <header class="border-b bg-orange-50">
     <nav class="layout-md flex items-center gap-6 py-4">
       <a href="/" class="font-semibold text-2xl">Fall 2025</a>
-      <a href="/code_bounds.html" class="link ml-auto">Code Bounds</a>
+      <!-- <a href="/code_bounds.html" class="link ml-auto">Code Bounds</a>-->
     </nav>
   </header>
 
