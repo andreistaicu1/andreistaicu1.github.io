@@ -4,7 +4,7 @@
 </script>
 
 <p
-  class="layout-md text-black text-xl leading-tight font-light mb-8"
+  class="layout-md text-black text-xl leading-tight font-light mb-2"
   id="UIUC_reading_group"
 >
 
@@ -16,7 +16,7 @@
            md:float-right float-none md:ml-6 ml-0" />
 
   <h1 class="text-3xl font-bold mb-6">Theory Reading Group</h1>
-  <p class="mb-3">We intend to cover various topics in theoretical computer science, including but not limited to:</p>
+  <p class="text-lg mb-3">We intend to cover various topics in theoretical computer science, including but not limited to:</p>
   <ul class="list-disc list-outside pl-6 space-y-1">
     {#each items as item}
         <li>{item}</li>
@@ -25,10 +25,9 @@
   <div class="clear-both"></div>
 </article>
 
-<p class="layout-lg mt-2">The reading group will be led by <a class="link" href="https://granha.github.io/">Prof. Fernando Granha Jeronimo</a> 
-    with help from student organizers Will, Andrei, and Rhea.</p>
-
-<p class="layout-lg mt-3 mb-6">We will meet in SC 3102 on Thursdays from 5-8PM, starting on September 18th.</p>
+<p class="layout-lg text-lg mt-2 mb-6">The reading group is led by <a class="link" href="https://granha.github.io/">Prof. Fernando Granha Jeronimo</a> 
+    with help from student organizers Will, <a class="link" href="/">Andrei</a>, and Rhea. We will meet in SC 3102 on Thursdays from 5-8PM, 
+    starting on September 18th.</p>
 
 <hr />
 

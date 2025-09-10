@@ -34,6 +34,10 @@
     </p>
   </div>
 
+  <div class="layout-lg text-lg space-y-8"><p>
+    I am helping run a reading course this term. More information can be found <a href="/reading" class="underline">here</a>.
+  </p></div>
+
 </div>
 
 <style lang="postcss">

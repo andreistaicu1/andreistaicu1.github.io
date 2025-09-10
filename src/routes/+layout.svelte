@@ -16,6 +16,13 @@
   const isMobile = browser && /Android|iPhone/i.test(navigator.userAgent);
   const reducedMotion =
     browser && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  const HIDE_ON: RegExp[] = [
+    /^\/reading(\/|$)/
+  ];
+  $: hideHeader =
+    HIDE_ON.some((re) => re.test($page.url.pathname)) ||
+    (browser && $page.url.searchParams.get("noheader") === "1"); // only access searchParams in browser
 </script>
 
 <svelte:head>
@@ -36,7 +43,9 @@
   {/if}
 </svelte:head>
 
-<Header />
+{#if !hideHeader}
+  <Header />
+{/if}
 
 
 {#if isMobile || reducedMotion}
