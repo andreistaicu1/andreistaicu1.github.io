@@ -17,7 +17,7 @@
 
   <h1 class="text-3xl font-bold mb-6">Theory Reading Group</h1>
   <p class="text-lg mb-3">We intend to cover various topics in theoretical computer science, including but not limited to:</p>
-  <ul class="list-disc list-outside pl-6 space-y-1">
+  <ul class="list-disc list-outside text-lg pl-6 space-y-1">
     {#each items as item}
         <li>{item}</li>
     {/each}

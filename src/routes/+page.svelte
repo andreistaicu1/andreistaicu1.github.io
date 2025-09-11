@@ -28,7 +28,7 @@
     <p>
       Previously, I was a research assistant at <a class="link" href="https://laber-labs.com/">Laber Labs</a>, advised by Prof. Eric Laber. I completed my undergrad at 
       Caltech in Mathematics with a minor in Computer Science. I was fortunate to be advised by and work on research projects under the guidance 
-      of Prof Schulman and Prof Umans. This is my <a href="/assets/pdf/resume.pdf" target="_blank" rel="noopener noreferrer" class="underline">CV</a>, 
+      of <a class="link" href="https://users.cms.caltech.edu/~schulman/">Prof Schulman</a> and <a class="link" href="https://users.cms.caltech.edu/~umans/">Prof Umans</a>. This is my <a href="/assets/pdf/resume.pdf" target="_blank" rel="noopener noreferrer" class="underline">CV</a>, 
       my publications are listed under <a href="/research" class="underline">research</a>, and I have my email and other information in the <a href="/extras" 
       class="underline">extras</a> tab. 
     </p>
