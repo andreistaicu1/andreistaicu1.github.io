@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Andrei Staicu</title>
+  <meta name="description" content="Andrei Staicu's research website." />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --maxw: 860px;
+      --text: #111;
+      --muted: #555;
+      --link: #0645ad;
+      --rule: #e5e5e5;
+      --bg: #fff;
+    }
+
+    html, body { height: 100%; }
+    body{
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.2 ui-serif, Georgia, "Times New Roman", Times, serif;
+    }
+
+    .wrap{
+      max-width: var(--maxw);
+      padding: 28px 18px 56px;
+      margin: 0 auto;
+    }
+
+    h1{
+      font-size: 2;
+      color:sienna;
+      font-weight: 200;
+      margin: 0 0 14px;
+    }
+
+    h2{
+      color:sienna;
+      font-size: 1.25rem;
+      margin: 0 0 5px;
+    }
+
+    h3{
+      font-size: 1.1rem;
+      margin: 0 0 5px;
+    }
+
+    p{ margin: 10px 0; }
+    .muted{ color: var(--muted); }
+
+    a{
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover{ text-decoration: underline; }
+
+    hr{
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 18px 0;
+    }
+
+    /* Top “card” layout */
+    .top{
+      display: grid;
+      grid-template-columns: 1fr 220px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .photo{
+      width: 220px;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .contact{
+      margin: 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .contact li{ margin: 4px 0; }
+
+    .callout{
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid var(--rule);
+      border-radius: 999px;
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+
+    ul{
+      margin: 8px 0 0 1.1rem;
+      padding: 0;
+    }
+    li{ margin: 8px 0; }
+
+    .paper-title{ font-weight: 600; }
+    .paper-meta{ color: var(--muted); }
+
+    .film-grid{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .film-grid img{
+      width: 100%;
+      height: auto;
+      border-radius: 0px;
+      display: block;
+    }
+
+    /* Mobile */
+    @media (max-width: 640px){
+      .top{
+        grid-template-columns: 1fr;
+      }
+      .photo{
+        width: min(220px, 70vw);
+      }
+      .film-grid{ grid-template-columns: 1fr; }
+      .film-grid img{ height: min(240px, 100vw); }
+    }
+
+    body { font-family: 'Merriweather', Georgia, "Times New Roman", Times, serif; }
+    h1  { font-family: 'Merriweather', Georgia, "Times New Roman", Times, serif; }
+    h2  { font-family: 'Merriweather', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <h1>Andrei Staicu</h1>
+
+    <section class="top" aria-label="Profile">
+      <div>
+        <p>
+        I am a first-year PhD student at the <a class="link" href="https://theoryincs.web.illinois.edu/">University of Illinois</a>, where I am advised by <a class="link" href="https://miforbes.cs.illinois.edu/">Michael A. Forbes</a>. My research interests are in theoretical computer science, specifically algebraic complexity theory, coding theory, and randomness in computation. I am interested in exploring the connections between algebraic geometry and computer science.
+        </p>
+
+        <p>
+        Previously, I was a research assistant at <a class="link" href="https://laber-labs.com/">Laber Labs</a>, advised by Prof. Eric Laber. I completed my B.S. at Caltech in Mathematics with a minor in Computer Science. I was fortunate to be advised by and work on research projects under the guidance of <a class="link" href="https://users.cms.caltech.edu/~schulman/">Leonard J. Schulman</a> and <a class="link" href="https://users.cms.caltech.edu/~umans/">Chris Umans</a>. 
+        </p>
+    </div>
+
+    <div>
+      <img class="photo" src="photos/profile.jpeg" alt="Profile"/>
+    </div>
+    </section>
+
+    <hr />
+
+    <section id="contact">
+        <ul class="contact">
+          <li><span class="muted">Email:</span> astaicu2 [at] illinois [dot] edu</li>
+          <li><span class="muted">Links:</span> <a href="https://scholar.google.com/citations?user=_Up8xXEAAAAJ&hl=en">Google Scholar</a> · <a href="https://github.com/andreistaicu1">GitHub</a> · <a href="https://www.linkedin.com/in/andrei-staicu-4ba3b9202">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <ul>
+        <li>
+          <span class="paper-title">Identifiability of Product of Experts Models</span><br />
+          <span class="paper-meta">with Spencer Gordon, Manav Kant, Eric Y Ma, and Leonard J Schulman · AISTATS 2024</span><br />
+          <a href="https://proceedings.mlr.press/v238/kant24a.html">PMLR</a> | <a href="https://arxiv.org/abs/2310.09397">arXiv</a>
+        </li>
+
+        <li>
+          <span class="paper-title">Counting 7-Arcs in Projective Planes over Finite Fields </span><br />
+          <a href="https://arxiv.org/abs/2311.16578">arXiv</a>
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="awards">
+      <h2>Honors and Awards</h2>
+      <ul>
+      <li><span>Bhansali Family Prize in Computer Science</span> <span style="float: right;">2024</span></li>
+      <li><span>Apostol Award for Excellence in Teaching in Mathematics</span> <span style="float: right;">2023</span></li>
+      <li><span>Caltech Summer Undergraduate Research Fellowship</span> <span style="float: right;">2021, 2022, and 2023</span></li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id ="film grid">
+      <p>A few photos I've taken on film:</p>
+      <div class="film-grid">
+        <img src="photos/cinci.jpg"/>
+        <img src="photos/golf.jpg"/>
+        <img src="photos/coffee.jpg"/>
+      </div>
+    </section>
+
+    <hr />
+
+    <section id="last updated">
+      <p class="muted" style="font-size: 0.9rem;">Last updated: January 2026</p>
+    </section>
+
+  </main>
+</body>
+</html>
