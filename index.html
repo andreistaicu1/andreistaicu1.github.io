@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Andrei Staicu</title>
   <meta name="description" content="Andrei Staicu's research website." />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Andrei Staicu" />
+  <meta property="og:description" content="PhD student at UIUC studying theoretical computer science." />
+  <meta property="og:type" content="website" />
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
     :root{
@@ -25,6 +29,7 @@
       background: var(--bg);
       color: var(--text);
       font: 16px/1.5 ui-serif, Georgia, "Times New Roman", Times, serif;
+      font-family: 'Lora', ui-serif, Georgia, "Times New Roman", Times, serif;
     }
 
     .wrap{
@@ -34,16 +39,18 @@
     }
 
     h1{
-      font-size: 2;
-      color:sienna;
+      font-size: 2rem;
+      color: sienna;
       font-weight: 200;
       margin: 0 0 14px;
+      font-family: 'Lora', ui-serif, Georgia, "Times New Roman", Times, serif;
     }
 
     h2{
-      color:sienna;
+      color: sienna;
       font-size: 1.25rem;
       margin: 0 0 5px;
+      font-family: 'Lora', ui-serif, Georgia, "Times New Roman", Times, serif;
     }
 
     h3{
@@ -66,7 +73,7 @@
       margin: 18px 0;
     }
 
-    /* Top “card” layout */
+    /* Top "card" layout */
     .top{
       display: grid;
       grid-template-columns: 1fr 220px;
@@ -88,23 +95,27 @@
     }
     .contact li{ margin: 4px 0; }
 
-    .callout{
-      display: inline-block;
-      padding: 6px 10px;
-      border: 1px solid var(--rule);
-      border-radius: 999px;
-      font-size: 0.95rem;
-      margin-top: 10px;
-    }
-
     ul{
       margin: 8px 0 0 1.1rem;
       padding: 0;
     }
     li{ margin: 8px 0; }
 
+    #research ul{
+      list-style: none;
+      margin-left: 0;
+    }
+
     .paper-title{ font-weight: 600; }
     .paper-meta{ color: var(--muted); }
+
+    .award-item{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+    }
+    .award-year{ color: var(--muted); white-space: nowrap; }
 
     .film-grid{
       display: grid;
@@ -113,10 +124,16 @@
       margin-top: 10px;
     }
 
-    .film-grid img{
+    .film-grid-item{
+      height: 220px;
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .film-grid-item img{
       width: 100%;
-      height: auto;
-      border-radius: 0px;
+      height: 100%;
+      object-fit: cover;
       display: block;
     }
 
@@ -125,16 +142,13 @@
       .top{
         grid-template-columns: 1fr;
       }
+      .top div:has(.photo){ order: -1; }
       .photo{
         width: min(220px, 70vw);
       }
       .film-grid{ grid-template-columns: 1fr; }
-      .film-grid img{ height: min(240px, 100vw); }
+      .film-grid-item{ height: 220px; }
     }
-
-    body { font-family: 'Lora', -apple-system; }
-    h1  { font-family: 'Lora', -apple-system; }
-    h2  { font-family: 'Lora', -apple-system; }
 
   </style>
 </head>
@@ -150,23 +164,22 @@
         </p>
 
         <p>
-        Previously, I was a research assistant at <a class="link" href="https://laber-labs.com/">Laber Labs</a>, advised by Eric Laber. I completed my B.S. at Caltech in Mathematics with a minor in Computer Science. I was fortunate to be advised by and work on research projects under the guidance of <a class="link" href="https://users.cms.caltech.edu/~schulman/">Leonard J. Schulman</a> and <a class="link" href="https://users.cms.caltech.edu/~umans/">Chris Umans</a>. 
+        Previously, I was a research assistant at <a class="link" href="https://laber-labs.com/">Laber Labs</a>, advised by Eric Laber. I completed my B.S. at Caltech in Mathematics with a minor in Computer Science. I was fortunate to be advised by and work on research projects under the guidance of <a class="link" href="https://users.cms.caltech.edu/~schulman/">Leonard J. Schulman</a> and <a class="link" href="https://users.cms.caltech.edu/~umans/">Chris Umans</a>.
         </p>
-    </div>
+      </div>
 
-    <div>
-      <img class="photo" src="photos/profile.jpeg" alt="Profile"/>
-    </div>
+      <div>
+        <img class="photo" src="photos/profile/profile.jpeg" alt="Andrei Staicu"/>
+      </div>
     </section>
 
     <hr />
 
     <section id="contact">
-        <ul class="contact">
-          <li><span class="muted">Email:</span> astaicu2 [at] illinois [dot] edu</li>
-          <li><span class="muted">Links:</span> <a href="https://scholar.google.com/citations?user=_Up8xXEAAAAJ&hl=en">Google Scholar</a> · <a href="https://github.com/andreistaicu1">GitHub</a> · <a href="https://www.linkedin.com/in/andrei-staicu-4ba3b9202">LinkedIn</a></li>
-        </ul>
-      </div>
+      <ul class="contact">
+        <li><span class="muted">Email:</span> astaicu2 [at] illinois [dot] edu</li>
+        <li><span class="muted">Links:</span> <a href="https://scholar.google.com/citations?user=_Up8xXEAAAAJ&hl=en">Google Scholar</a> · <a href="https://github.com/andreistaicu1">GitHub</a> · <a href="https://www.linkedin.com/in/andrei-staicu-4ba3b9202">LinkedIn</a></li>
+      </ul>
     </section>
 
     <hr />
@@ -177,7 +190,7 @@
       <ul>
         <li>
           <span class="paper-title">Proving Algebraic Independence in Zero-Knowledge</span><br />
-          <span class="paper-meta">with Michael A. Forbes </span><br />
+          <span class="paper-meta">with Michael A. Forbes</span><br />
         </li>
 
         <li>
@@ -187,7 +200,7 @@
         </li>
 
         <li>
-          <span class="paper-title">Counting 7-Arcs in Projective Planes over Finite Fields </span><br />
+          <span class="paper-title">Counting 7-Arcs in Projective Planes over Finite Fields</span><br />
           <a href="https://arxiv.org/abs/2311.16578">arXiv</a>
         </li>
       </ul>
@@ -198,29 +211,54 @@
     <section id="awards">
       <h2>Honors and Awards</h2>
       <ul>
-      <li><span>Bhansali Family Prize in Computer Science</span> <span style="float: right;">2024</span></li>
-      <li><span>Apostol Award for Excellence in Teaching in Mathematics</span> <span style="float: right;">2023</span></li>
-      <li><span>Caltech Summer Undergraduate Research Fellowship</span> <span style="float: right;">2021, 2022, and 2023</span></li>
+        <li class="award-item"><span>Bhansali Family Prize in Computer Science</span> <span class="award-year">2024</span></li>
+        <li class="award-item"><span>Apostol Award for Excellence in Teaching in Mathematics</span> <span class="award-year">2023</span></li>
+        <li class="award-item"><span>Caltech Summer Undergraduate Research Fellowship</span> <span class="award-year">2021, 2022, and 2023</span></li>
       </ul>
     </section>
 
     <hr />
 
-    <section id ="film-grid">
+    <section id="film-section">
       <p>A few photos I've taken on film:</p>
-      <div class="film-grid">
-        <img src="photos/cinci.jpeg"/>
-        <img src="photos/golf.jpeg"/>
-        <img src="photos/coffee.jpeg"/>
-      </div>
+      <div class="film-grid" id="film-grid"></div>
     </section>
 
     <hr />
 
     <section id="last-updated">
-      <p class="muted" style="font-size: 0.9rem;">Last updated: February 2026</p>
+      <p class="muted" style="font-size: 0.9rem;">Last updated: March 2026</p>
     </section>
 
-  </main>
+    </main>
+
+  <script>
+    const filmPhotos = [
+      { src: "photos/film/cinci.jpeg",         alt: "Cincinnati" },
+      { src: "photos/film/golf.jpeg",           alt: "Golf course" },
+      { src: "photos/film/coffee.jpeg",         alt: "Coffee" },
+      { src: "photos/film/nyc_street.jpeg",     alt: "NYC street" },
+      { src: "photos/film/berkeley_marina.jpg", alt: "Berkeley marina" },
+      { src: "photos/film/pier_39.jpg",         alt: "Pier 39" },
+      { src: "photos/film/arsicault.jpg",       alt: "Arsicault" },
+      { src: "photos/film/airport.JPG",         alt: "Airport" },
+      { src: "photos/film/duke_chapel.JPG",     alt: "Duke Chapel" },
+      { src: "photos/film/qip2025.JPG",         alt: "QIP 2025" },
+      { src: "photos/film/uchicago_booth.jpg",  alt: "UChicago Booth" },
+    ];
+
+    const grid = document.getElementById("film-grid");
+    const picks = filmPhotos.sort(() => Math.random() - 0.5).slice(0, 3);
+    picks.forEach(({ src, alt }) => {
+      const wrapper = document.createElement("div");
+      wrapper.className = "film-grid-item";
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = alt;
+      img.loading = "lazy";
+      wrapper.appendChild(img);
+      grid.appendChild(wrapper);
+    });
+  </script>
 </body>
 </html>
