@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AG Codes Reading Group</title>
+  <meta name="description" content="A reading group on algebraic geometric codes." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --maxw: 860px;
+      --text: #111;
+      --muted: #555;
+      --link: #0645ad;
+      --rule: #e5e5e5;
+      --bg: #fff;
+    }
+
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.5 'Lora', ui-serif, Georgia, "Times New Roman", Times, serif;
+    }
+
+    .wrap {
+      max-width: var(--maxw);
+      padding: 28px 18px 56px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: sienna;
+      font-weight: 200;
+      margin: 0 0 14px;
+    }
+
+    h2 {
+      color: sienna;
+      font-size: 1.25rem;
+      margin: 0 0 5px;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin: 0 0 5px;
+    }
+
+    p { margin: 10px 0; }
+    .muted { color: var(--muted); }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 18px 0;
+    }
+
+    /* Top card */
+    .top {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+
+    .contact {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .contact li { margin: 4px 0; }
+
+    ul {
+      margin: 8px 0 0 1.1rem;
+      padding: 0;
+    }
+    li { margin: 8px 0; }
+
+    /* Schedule table */
+    #schedule ul {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .talk-item {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 0 1rem;
+      margin: 12px 0;
+      align-items: baseline;
+    }
+    .talk-date {
+      color: var(--muted);
+      white-space: nowrap;
+      font-size: 0.95rem;
+    }
+    .talk-title { font-weight: 600; }
+    .talk-meta { color: var(--muted); font-size: 0.93rem; }
+
+    /* Reading list */
+    #reading ul {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .paper-title { font-weight: 600; }
+    .paper-meta { color: var(--muted); }
+
+    /* Participants */
+    #participants ul {
+      list-style: none;
+      margin-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 24px;
+    }
+    #participants li { margin: 4px 0; }
+
+    /* Resources */
+    #resources ul {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      .top {
+        grid-template-columns: 1fr;
+      }
+      .logo { width: min(200px, 70vw); }
+      .talk-item {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <h1>AG Codes Reading Group</h1>
+
+    <section class="top" aria-label="About">
+      <div>
+        <p>
+          This is a reading group on <em>algebraic geometric codes</em> and their constructions.
+        </p>
+        <p>
+          We're going to go through Gil Cohen's <a href="https://www.gilcohen.org/2024-agc">course</a> and Stichtenoth's
+          book. We're all traveling over the summer so likely some meetings will be over Zoom.
+        </p>
+      </div>
+
+      <div>
+        <!--
+          Optionally place a logo or relevant image here, e.g.:
+          <img class="logo" src="images/logo.png" alt="AG Codes Reading Group" />
+        -->
+      </div>
+    </section>
+    <hr />
+
+    <section id="schedule">
+      <h2>Schedule</h2>
+
+      <ul>
+        <li>
+          <div class="talk-item">
+            <span class="talk-date">May 21st, 2026</span>
+            <div>
+              <div class="talk-title">Review of Rings and Fields</div>
+              <div class="talk-meta">Notes · <a href="https://www.gilcohen.org/_files/ugd/d112fa_9d9392bef23a4b9eba271af8050dd909.pdf">Rings</a>, <a href="https://www.gilcohen.org/_files/ugd/d112fa_b6d125454981490fb73a70e0ed472fa1.pdf">Fields</a>, and Appendix A of Stichtenoth </div>
+              <div class="talk-meta">Exercises · <a href="https://www.gilcohen.org/_files/ugd/d112fa_a2e8ee40d1cd4e3c9b45db6c96bba441.pdf">Cohen Set 0</a></div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="talk-item">
+            <span class="talk-date">May 28th, 2026</span>
+            <div>
+              <div class="talk-title">Places and Function Fields</div>
+              <div class="talk-meta">Notes · Abstracting Notion of a Point (<a href="https://www.gilcohen.org/_files/ugd/d112fa_aef1f55a5a954211a64483287b848c35.pdf">Places</a>) + Function Fields, and Ch 1.1-1.3 of Stichtenoth </div>
+              <div class="talk-meta">Exercises · <a href="https://www.gilcohen.org/_files/ugd/d112fa_2088e7bae77146b6b5bbc19415356ae8.pdf">Cohen Set 1</a></div>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="reading">
+      <h2>References</h2>
+
+      <ul>
+        <li>
+          <span class="paper-title">Gil Cohen's AG Codes Course</span><br />
+          <span class="paper-meta">G. Cohen · <a href="https://www.gilcohen.org/2024-agc">Notes and Sets</a></span>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <span class="paper-title">Algebraic Function Fields and Codes</span><br />
+          <span class="paper-meta">H. Stichtenoth · Springer, 2009 (2nd ed.) · <a href="https://link.springer.com/book/10.1007/978-3-540-76878-4">Online PDF</a></span>
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="resources">
+      <h2>Papers that use AG Codes / Function Fields</h2>
+
+      <ul>
+        <li>
+          <span class="paper-title"><a href="https://arxiv.org/abs/2310.12898">Explicit Rank Extractors and Subspace Designs via Function Fields, with Applications to Strong Blocking Sets</a></span><br />
+          <span class="paper-meta"> Guo, Raj, Shangguan, Zhang · 2026 pre-print</span>
+        </li>
+
+        <li>
+          <span class="paper-title"><a href="https://eccc.weizmann.ac.il/report/2026/003/">Recovering polynomials over finite fields
+          from noisy character values</a></span><br />
+          <span class="paper-meta">Kopparty · 2026 pre-print</span>
+        </li>
+
+        <li>
+          <span class="paper-title"><a href="https://arxiv.org/abs/2310.12898">AG Codes Achieve List-decoding Capacity over Constant-sized Fields</a></span><br />
+          <span class="paper-meta">Brakensiek, Dhar, Gopi, Zhang · STOC 2024</span>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+</html>
